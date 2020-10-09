@@ -1,2 +1,2 @@
 # Importance-Weighted-Autoencoders
-implementation of both IWAE and VAE
+a PyTorch implementation of both IWAE and VAE
