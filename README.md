@@ -1,6 +1,7 @@
 # Importance-Weighted-Autoencoders
 A PyTorch implementation of both IWAE and VAE experiments in the paper *Importance Weighted Autoencoders* 
-by Yuri Bruda, Roger Grosse and Ruslan Slakhutdinov.
+by Yuri Bruda, Roger Grosse and Ruslan Slakhutdinov. 
+https://arxiv.org/pdf/1509.00519.pdf
 
 ## Decoder Type
 Bernoulli decoder
