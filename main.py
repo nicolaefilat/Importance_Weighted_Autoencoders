@@ -66,9 +66,9 @@ if __name__ == '__main__':
         index_vec = torch.tensor([i * k for i in range(batch_size)]).to(device)
 
     if args.layer == 1:
-        net = VAE_1(args)
+        net = VAE_1(args).to(device)
     else:
-        net = VAE_2(args)
+        net = VAE_2(args).to(device)
 
     # train the model
     learning_rate = 0.001
